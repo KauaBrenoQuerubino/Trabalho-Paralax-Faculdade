@@ -1,0 +1,229 @@
+body{
+    height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+header {
+    position: relative;
+    margin: 0 150px ;
+    background-color: rgba(48, 47, 47, 0);
+    padding: 30px;
+    align-items: center;
+    z-index: 1000000000001;
+}
+
+header nav{
+
+    color: rgb(37, 36, 36);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+header nav .Logo{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+
+header nav .interface {
+    display: flex;
+}
+header nav ul {
+    list-style-type: none;   
+}
+
+header nav ul li{
+
+    display: inline-block;
+    padding: 5px 20px;
+    transition: .5s;
+}
+
+header nav ul li a {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    
+    text-decoration: none;
+    color: rgb(34, 31, 31);
+    
+}
+
+header nav ul li:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+header nav .logo {
+    padding: 5px 20px;
+
+}
+
+header nav .btn-entre{
+    font-weight: 700;
+    color: white;
+    background-color: rgb(99, 99, 247);
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    transition: .6s;
+}
+
+header nav .btn-entre:hover{
+    transform: scale(1.2);
+}
+
+
+.Sobre {
+    top: -100px;
+    left: 0;    
+    background-color: #daf9f8bd;
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+
+.Sobre> .bg-image{
+    background-image: url(images/mbr-3.jpg);
+    background-position: -100px; 
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.Sobre  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    margin-top: 100px;
+}
+
+
+.Sobre .container .Titulo h1 {
+    font-weight: 900;
+    text-align: center;
+    font-size: 70px;
+    color: rgb(48, 47, 47);
+}
+
+
+.Sobre .container .Titulo p {
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(48, 47, 47);
+    text-align: center;
+}
+
+.Sobre .container .Titulo .btn-sobre {
+    
+    display: flex;
+    justify-content: center;
+}
+
+.Sobre .container .Titulo button {
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    width: 120px;
+    height: 50px;
+    transition: .6s;
+    position: relative;
+    margin: 20px;
+    
+}
+
+.Sobre .container .Titulo button:hover{
+    transform: scale(1.1);
+}
+
+.Sobre .container .Titulo .RMore{
+    background-color: rgb(99, 99, 247);
+}
+.Sobre .container .Titulo .bticket{
+    background-color: rgb(194, 91, 91);
+}
+
+.Timeline {
+    top: -100px;
+    left: 0;    
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+.Timeline .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 1000px;
+}
+
+.Timeline .container h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 100px 0;
+}
+
+.Timeline .container p {
+    font-size: 20px;
+}
+
+.Festivais {
+   
+    width: 1100px;
+    text-align: center;
+    margin-left: 190px;
+}
+
+.Festivais .Listening {
+    text-align: center;
+    display: flex;
+}
+
+.Festivais .Listening .Content{
+    margin: 0 100px;
+    text-align: start;
+    width: 400px;
+    
+}
+
+.Festivais .Listening .Content h1{
+    font-weight: bold;
+    margin-bottom: 20px ;
+}
+
+.Festivais .Listening .Content p{
+    font-size: 20px;
+}
+
+.Festivais .Listening  img{
+    height: 300px;
+}
+
+.Data{
+    font-size: 20px;
+    margin: 100px;
+    text-align: center;
+}
