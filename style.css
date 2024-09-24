@@ -93,6 +93,7 @@ header nav .btn-entre:hover{
     width: 100%;
     height: 800px;
     position: relative;
+    
 }
 
 .Sobre> .bg-image{
@@ -163,12 +164,15 @@ header nav .btn-entre:hover{
     background-color: rgb(194, 91, 91);
 }
 
+
+
+
 .Timeline {
     top: -100px;
     left: 0;    
     width: 100%;
     height: 600px;
-    position: relative;
+    position:relative;
 }
 
 .Timeline .container {
@@ -189,6 +193,7 @@ header nav .btn-entre:hover{
 .Timeline .container p {
     font-size: 20px;
 }
+
 
 .Festivais {
    
@@ -222,8 +227,103 @@ header nav .btn-entre:hover{
     height: 300px;
 }
 
-.Data{
+
+
+.Dates{
     font-size: 20px;
-    margin: 100px;
+    margin: 100px 200px;
     text-align: center;
 }
+
+
+.ComingSoon {
+    top: 100px;
+    left: 0;    
+    width: 100%;
+    height: 600px;
+    position:relative;
+}
+
+.ComingSoon .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 800px;
+}
+
+.ComingSoon .container h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 100px 0 50px;
+}
+
+.ComingSoon .container p {
+    font-size: 20px;
+}
+
+.ComingSoon .container .hours {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.ComingSoon .container .hours span{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ComingSoon .container .hours span h1{
+    font-size: 60px;
+    margin-bottom: 0;
+
+}
+
+.ComingSoon .container> span p{
+    
+    margin-top: 50px;
+}
+.ComingSoon .container> .Subscribe{
+ 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.ComingSoon .container .Subscribe .center{
+
+    justify-content: center;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+.ComingSoon .container .Subscribe .center input{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.479);
+    height: 50px;
+    width: 290px;
+    margin-top: 60px;
+    border: none;
+    font-size: 16px;
+    color:gray;
+}
+.ComingSoon .container .Subscribe .center button{
+    margin-top: 10px;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(99, 99, 247);
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+    height: 50px;
+    transition: .6s;
+}
+
+.SocialMidia{
+    background-color: aquamarine;
+}
+
