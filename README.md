@@ -2,7 +2,7 @@
 
 <h1 align="center">Projeto em Parallax</h1>
 
-Trabalho para faculdade utilizando [![My Skills](https://skillicons.dev/icons?i=js,html,css)](https://skillicons.dev)
+Trabalho para faculdade utilizando          [![My Skills](https://skillicons.dev/icons?i=js,html,css)](https://skillicons.dev)
 
 Nesse trabalho iremos fazer um efeito parallax
 
