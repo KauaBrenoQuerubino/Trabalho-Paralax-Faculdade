@@ -9,7 +9,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "Jost", sans-serif;
     font-weight: 500;
     font-style: normal;
 }
@@ -44,7 +44,7 @@ header nav{
 }
 
 header nav .Logo{
-    font-family: "Poppins", sans-serif;
+    font-family: "Jost", sans-serif;
     font-weight: bold;
     font-size: 20px;
     
@@ -66,7 +66,7 @@ header nav ul li{
 }
 
 header nav ul li a {
-    font-family: "Poppins", sans-serif;
+    font-family: "Jost", sans-serif;
     font-weight: bold;
     
     text-decoration: none;
@@ -138,7 +138,7 @@ header nav .btn-entre:hover{
 .Sobre .container .Titulo h1 {
     font-weight: 900;
     text-align: center;
-    font-size: 70px;
+    font-size: 80px;
     color: rgb(48, 47, 47);
 }
 
@@ -201,7 +201,7 @@ header nav .btn-entre:hover{
 }
 
 .Timeline .container h1 {
-    font-size: 50px;
+    font-size: 60px;
     font-weight: bold;
     margin: 100px 0;
 }
@@ -223,10 +223,10 @@ header nav .btn-entre:hover{
 
 .Timeline .container >.line {
     position: absolute;
-    top: 355px;
+    top: 364px;
     left: 50%;
     width: 2px;
-    height: 660px;
+    height: 600px;
     background-color: #00bcd4;
   }
 
@@ -286,10 +286,10 @@ header nav .btn-entre:hover{
 
 .Dates> .line{
     position: absolute;
-    top: 2016px;
+    top: 1978px;
     left: 50%;
     width: 2px;
-    height: 843px;
+    height: 800px;
     background-color: #00bcd4;
 }
 
@@ -313,7 +313,7 @@ header nav .btn-entre:hover{
 
 .Dates2> .line{
     position: absolute;
-    top: 2943px;
+    top: 2865px;
     left: 50%;
     width: 2px;
     height: 750px;
@@ -552,3 +552,100 @@ footer {
     margin-top: 40px;
     height: 200px;
 }
+
+@media screen and (max-width: 800px) {
+    header{
+        left: -150px;
+        width: 100%;
+        padding: 10px;
+    }
+
+
+
+    header nav .Logo{
+        visibility: hidden;
+        position: relative;
+        width: 1930px;
+        height: auto;
+        left: 100px;
+        font-size: 16;
+    }
+
+    
+
+    header nav .interface{
+        width: 1000px;
+        position: absolute;
+        left: 0;
+    }
+
+    header nav .interface .btn-entre{
+        visibility: hidden;
+    }
+
+    header nav ul li{
+        display: inline-block;
+        padding: 5px 20px;
+
+    }
+    
+
+
+    .Sobre {
+        top: -250px;
+        height: 700px;
+        width: 700px;
+      
+    }
+    .Sobre> .bg-image{
+        background-position: -900px;
+            
+    }
+    .Sobre  .container {
+        position: absolute;
+        top: 300px;
+        left: 200px;
+        width: 600px;
+        margin-top: 100px;
+    }
+
+    .Sobre .container .Titulo h1 {
+        font-weight: 900 bold;
+        font-size: 30px;
+    }
+    .Sobre .container .Titulo p {
+        font-weight: 500;
+        font-size: 9px;
+
+    }
+    
+    .Sobre .container .Titulo .btn-sobre {
+        
+        display: flex;
+        justify-content: center;
+    }
+    
+    .Sobre .container .Titulo button {
+        font-weight: 700;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        width: 120px;
+        height: 50px;
+        transition: .6s;
+        position: relative;
+        margin: 20px;
+        
+    }
+
+    .Sobre .container .Titulo button {
+        width: 100px;
+        height: 40px;
+    }
+
+    
+    
+
+
+
+  }
